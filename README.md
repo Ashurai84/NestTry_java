@@ -16,3 +16,27 @@ The program performs the following steps:
 ```bash
 javac NestTry.java  # Compile the program
 java NestTry arg1 arg2  # Run with arguments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$ java NestTry
+Divide by 0: java.lang.ArithmeticException: / by zero
+
+$ java NestTry 1
+a = 1
+Divide by 0: java.lang.ArithmeticException: / by zero
+
+$ java NestTry 1 2
+a = 2
+Array index out-of-bounds: java.lang.ArrayIndexOutOfBoundsException: Index 42 out of bounds for length 1
